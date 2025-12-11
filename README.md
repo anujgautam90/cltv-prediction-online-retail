@@ -48,16 +48,16 @@ This project is structured like a real industry ML engagement.
 
 ### 4.3 Feature Engineering  
 Created customer-level features such as:
-Feature                 Description
-recency	                Days since last purchase
-frequency	              Number of invoices
-monetary_value	        Total revenue
-avg_basket_value	      Average spend per order
-purchase_interval_mean	Average days between purchases
-returns_flag	          Whether the customer has returned items
-country	                Encoded geography
-
+•	Feature				           Description
+•	recency				           Days since last purchase
+•	frequency				         Number of invoices
+•	monetary_value			     Total revenue
+•	avg_basket_value		     Average spend per order
+•	purchase_interval_mean	 Average days between purchases
+•	returns_flag			       Whether the customer has returned items
+•	country				           Encoded geography
 These features form the behavioural DNA of each customer.
+
 
 ### 4.4 CLTV Label Creation  
 Target variable:  
@@ -120,7 +120,7 @@ Typical patterns:
 - Model deployment as an API  
 
 ## 8. How to Run This Project  
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/anujgautam90/cltv-prediction-online-retail.git
 cd cltv-prediction-online-retail

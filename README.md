@@ -48,14 +48,14 @@ This project is structured like a real industry ML engagement.
 
 ### 4.3 Feature Engineering  
 Created customer-level features such as:
-Feature	Description
-recency	Days since last purchase
-frequency	Number of invoices
-monetary_value	Total revenue
-avg_basket_value	Average spend per order
+Feature                 Description
+recency	                Days since last purchase
+frequency	              Number of invoices
+monetary_value	        Total revenue
+avg_basket_value	      Average spend per order
 purchase_interval_mean	Average days between purchases
-returns_flag	Whether the customer has returned items
-country	Encoded geography
+returns_flag	          Whether the customer has returned items
+country	                Encoded geography
 
 These features form the behavioural DNA of each customer.
 

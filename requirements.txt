@@ -1,0 +1,14 @@
+## `requirements.txt`
+
+Create `requirements.txt` in the repo root:
+
+```text
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+jupyter
+ipykernel
